@@ -6,7 +6,7 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://taskflow-2579.netlify.app"])
 
 DATA_FILE = "data.json"
 
